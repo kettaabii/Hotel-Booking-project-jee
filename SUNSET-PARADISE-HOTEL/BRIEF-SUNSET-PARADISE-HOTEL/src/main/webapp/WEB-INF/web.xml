@@ -9,7 +9,14 @@
 <servlet-name>Home</servlet-name>
 <url-pattern>/</url-pattern>
 </servlet-mapping>
-
+    <servlet>
+        <servlet-name>reserve</servlet-name>
+        <servlet-class>com.java.servlets.reserve</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reserve</servlet-name>
+        <url-pattern>/rs</url-pattern>
+    </servlet-mapping>
 <servlet>
 <servlet-name>SearchAvailableRoom</servlet-name>
 <servlet-class>com.java.servlets.SearchAvailableRoom</servlet-class>

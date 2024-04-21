@@ -59,50 +59,16 @@
             </button>
         </div>
     </nav>
+
     <img class="bg-home me-auto overlay" style="width: 100%" src="https://i.ibb.co/CVJg7Ny/bg-home.jpg">
     <section class="home">
         
-        <span id="welcome" class="welcome custom-caption text-uppercase text-white d-block  mb-3">Welcome To 5 <img style="height: 15px; margin-bottom: 5px;" src="https://i.ibb.co/JkBdm7t/star.png" alt="star">   Hotel</span>
+        <span id="welcomediv" class="welcome custom-caption text-uppercase text-white d-block  mb-3">Sunset Paradise Hotel <img style="height: 15px; margin-bottom: 5px;" src="https://i.ibb.co/JkBdm7t/star.png" alt="star"><img style="height: 15px; margin-bottom: 5px;" src="https://i.ibb.co/JkBdm7t/star.png" alt="star"><img style="height: 15px; margin-bottom: 5px;" src="https://i.ibb.co/JkBdm7t/star.png" alt="star"></span>
         <h1 id="welcome" class="welcome text-white heading">A Best Place To Stay</h1>
-            <div class="rounded m-5 check-availabilty" id="next">
-                <form id="formCheck" method="post" action="searchavailableroom" class="form-checking row" >
-                    <div class="col-md-2 mb-2">
-                        <label for="CheckIn">Check In</label>
-                        <input class="form-control mt-1" type="date" id="start" name="checkIn" value="2024-04-19" min="2024-01-01" max="2030-12-31" />
-                    </div>
-                    <div class="col-md-2 mb-2 ">
-                        <label for="CheckOut">Check In</label>
-                        <input class="form-control mt-1" type="date" id="End" name="checkOut" value="2024-04-19" min="2024-01-01" max="2030-12-31" />
-                    </div>
-                    <div class="col-md-2 mb-2">
-                        <label for="inputAType">Type</label>
-                        <select class="form-control mt-1" id="roomType" name="inputType">
-                            <option value="Room">Room</option>
-                            <option value="Suite">Suite</option>
-                        </select>
-                    </div>
-                    <div class="col-md-1 mb-2">
-                        <label for="inputAdulte">Adults</label>
-                        <select class="form-control mt-1" id="inputAdults" name="adults">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5+</option>
-                        </select>
-                    </div>
-                    <div class="col-md-1 mb-2">
-                        <label for="inputChildrens">Childrens</label>
-                        <select class="form-control mt-1" id="inputChildrens" name="childrens">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4+</option>
-                        </select>
-                    </div> 
-                    <button id="checkRoom"  style="background-color: #FFC803; height: 40px; width: 200px;" class="border-0 mx-5 mt-3 text-light rounded" style="background-color: #c57e0b;" type="submit" class="btn">Check Availabilty</button>
-                </form>
+            <div class="rounded m-5 check-availabilty" >
+
+                    <a id="checkRoom"  style=" height: 40px; width: 200px;  position: relative;   left: 40%;" href="/demo_war/rs" class="border-2  text-light rounded  " style="background-color: #c57e0b; align-content: center; align-items: center;" type="submit" class="btn">Check Availabilty</a>
+
               </div>
               <section class="bg-light rooms">
                 <div class="container">
@@ -113,6 +79,7 @@
                     </div>
                   </div>
                   <div class="row">
+
 
                     <div class="col-md-6 col-lg-4" >
                         <a href="#" class="room">
@@ -145,7 +112,7 @@
                       </figure>
                       <div class="p-3 text-center">
                         <h2 class="text-dark">Family Room</h2>
-                        <span class="text-uppercase letter-spacing-1 text-warning">200$ / per night</span>
+                        <span class="text-uppercase letter-spacing-1 text-warning">1600Dhs / per night</span>
                       </div>
                     </a>
                   </div>
@@ -157,7 +124,7 @@
                       </figure>
                       <div class="p-3 text-center">
                         <h2 class="text-dark">Junior Suite</h2>
-                        <span class="text-uppercase letter-spacing-1 text-warning">180$ / per night</span>
+                        <span class="text-uppercase letter-spacing-1 text-warning">1200Dhs / per night</span>
                       </div>
                     </a>
                   </div>

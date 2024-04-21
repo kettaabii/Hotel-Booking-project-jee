@@ -28,7 +28,7 @@ public class RoomDAOImpl implements RoomDAO {
 	public ArrayList<Room> getDataRoom() throws SQLException, ClassNotFoundException {
 		ArrayList<Room> arrayRoom = new ArrayList<>();
         Connection connection = ConnectionDAO.getConnection();
-        String getDataRoom = "SELECT * FROM Room";
+        String getDataRoom = "SELECT * FROM room";
         PreparedStatement statement = connection.prepareStatement(getDataRoom);
         statementRoom(arrayRoom, statement);
         connection.close();
@@ -40,7 +40,7 @@ public class RoomDAOImpl implements RoomDAO {
 	public ArrayList<Room> searchAvailableRoom(String roomType, Integer roomCapacity) throws ClassNotFoundException, SQLException{
 		ArrayList<Room> arrayRoom = new ArrayList<>();
         Connection connection = ConnectionDAO.getConnection();
-        String SearchAvailableRoom = "SELECT * FROM Room WHERE roomAvailability = ? AND (roomType LIKE ?  OR roomCapacity = ?)";
+        String SearchAvailableRoom = "SELECT * FROM room WHERE roomAvailability = ? AND (roomType LIKE ?  OR roomCapacity = ?)";
         PreparedStatement statement = connection.prepareStatement(SearchAvailableRoom);
         statement.setBoolean(1, true);
         statement.setString(2, "%" + roomType + "%");

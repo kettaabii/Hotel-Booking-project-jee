@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\user\Desktop\hotel-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3865548586.index
-\Book Now\src\main\java
